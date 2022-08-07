@@ -35,4 +35,4 @@ java -jar build/libs/casestudy-0.0.1-SNAPSHOT.jar
 ```
 
 ### Api docs
-Api docs are auto generated using Swagger-3/OpenApi at the url `/swagger-ui.html`
+Api docs are auto generated using Swagger-3 and OpenApi at the url `/swagger-ui.html`
