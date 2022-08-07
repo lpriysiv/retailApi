@@ -8,7 +8,7 @@ The database is hosted on a docker container. To setup and run the database, run
 Mongo database runs on port 27017
 
 ```
-docker-compose -up -d
+docker-compose up -d
 ```
 
 ### Build 
