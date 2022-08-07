@@ -6,8 +6,14 @@ Simple microservice that holds product data. Hosts a get and a put endpoint to f
 ### Mongo Database
 The database is hosted on a docker container. To setup and run the database, run the following command.
 Mongo database runs on port 27017
+<<<<<<< HEAD
 ```
 docker-compose -up -d
+=======
+
+```
+docker-compose up -d
+>>>>>>> 9d445c7e0c6cd1402236d3ae6cac8160d3f9c5d7
 ```
 
 ### Build 
