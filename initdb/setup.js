@@ -1,7 +1,7 @@
 db = db.getSiblingDB('productdb');
 db.createUser({
     user: "test_user" , 
-    pwd: _getEnv('MONGO_PASSWORD'), 
+    pwd: "s3cr3t_p@ssw0rd", 
     roles: [  
         { role:"dbOwner", db: "productdb" }
     ]

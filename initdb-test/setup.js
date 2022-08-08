@@ -7,10 +7,10 @@ db.createUser({
     ]
 });
 
-db.products.insertOne([
+db.products.insertOne(
     {
         "_id":111,
         "price": 10.99,
         "currencyCode":"USD"
     }
- ])
+ )
