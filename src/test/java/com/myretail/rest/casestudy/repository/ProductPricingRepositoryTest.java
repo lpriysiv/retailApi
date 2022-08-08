@@ -9,10 +9,12 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.data.mongo.DataMongoTest;
+import org.springframework.test.context.ActiveProfiles;
 
 import com.myretail.rest.casestudy.resource.ProductPricing;
 
 @DataMongoTest
+@ActiveProfiles(profiles = {"test"})
 public class ProductPricingRepositoryTest {
 
     @Autowired

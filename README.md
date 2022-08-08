@@ -1,5 +1,5 @@
 # retailApi
-Simple microservice that holds product data. Hosts a get and a put endpoint to fetch and update data
+Spring boot microservice that holds product data. Hosts a get and a put endpoint to fetch and update a product.
 
 ## Project setup steps:
 
@@ -11,7 +11,7 @@ Mongo database runs on port 27017
 docker-compose up -d
 ```
 
-### Build 
+### Build  
 To build the project using the gradle configuration, run gradle build from project root.
 
 ```

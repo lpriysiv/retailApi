@@ -8,3 +8,9 @@ services:
       - 27017:27017  
     environment:
       - MONGO_PASSWORD:${MONGO_PASSWORD}  
+  mongodb_test:
+    image: mongo:5.0
+    volumes: 
+      - ./initdb-test:/docker-entrypoint-initdb.d/
+    ports:
+      - 27018:27017  
